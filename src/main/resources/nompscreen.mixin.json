@@ -1,0 +1,12 @@
+{
+    "required": true,
+    "package": "me.bodiw.nompscreen.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "client": [
+      "MultiplayerScreenMixin"
+    ],
+    "injectors": {
+      "defaultRequire": 1
+    },
+    "refmap": "nompscreen.mixin-refmap.json"
+  }
