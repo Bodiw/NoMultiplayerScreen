@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "nompscreen",
+  "version": "${version}",
+
+  "name": "No Multiplayer Screen",
+  "description": "Gets Rids of the Multiplayer server list Screen",
+  "authors": [
+    "Bodiw"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Bodiw",
+    "sources": "https://github.com/Bodiw/NoMultiplayerScreen"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/nompscreen/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.bodiw.nompscreen.NoMpScreen"
+    ]
+  },
+  "mixins": [
+    "nompscreen.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
